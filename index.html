@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__text">
+                <img src="/images/Лого.png" alt="">
+                <ul>
+                    <li>Главная</li>
+                    <li>Магазин</li>
+                    <li><a href="about/about.html">О бренде</a></li>
+                    <li>Контакты</li>
+                </ul>
+                <div class="header__nubmer">
+                    <img class="img__call" src="/images/Заказ звонка.png" alt="">
+                    <p onclick="toggleLogin()">+7 (495) 823-54-12</p>
+                    <img src="/images/Vector (1).png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="login">
+        <img onclick="toggleLogin()" src="images/Close.png" alt="">
+        <h2>Заказать обратный звонок</h2>
+        <input type="text" placeholder="Имя">
+        <input type="email" placeholder="E-mail">
+        <input type="text" placeholder="Телефон">
+        <button onclick="toggleThanks()">Заказать звонок</button>
+    </div>
+    <div class="thanks">
+        <h2>Отлично! Мы скоро вам перезвоним.</h2>
+        <button onclick="toggleThanks()">Закрыть</button>
+    </div>
+    <main>
+        <section class="season">
+            <div class="container">
+                <div class="new__season">
+                    <div class="new__season__left">
+                        <h1>Новые поступления <br> в этом сезоне</h1>
+                        <p>Утонченные сочетания и бархатные <br>оттенки - вот то, что вы искали в этом <br>сезоне. Время
+                            исследовать.</p>
+                        <button>
+                            <img src="/images/Кнопки.png" alt="">
+                        </button>
+                    </div>
+                    <div class="new__season__right">
+                        <img class="right__first" src="images/Фото главное.png" alt="">
+                        <img class="right__second" src="images/Фото вторичное.png" alt="">
+                        <img class="right__third" src="images/Фото третьестепенное.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="new__colection">
+                    <h2>Новая коллекция</h2>
+                    <div class="mini__section">
+                        <div class="new__card">
+                            <img src="/images/christopher-campbell-va0YmkIFtPA-unsplash 1.png" alt="">
+                            <h3>Футболка USA</h3>
+                            <h4>$229
+                                $129</h4>
+
+                        </div>
+                        <div class="new__card">
+                            <img src="/images/brooke-cagle-h3vR1F8-caI-unsplash 1.png" alt="">
+                            <h3>Купальник Glow</h3>
+                            <h4>$129</h4>
+
+                        </div>
+                        <div class="new__card">
+                            <img src="/images/Фото товара.png" alt="">
+                            <h3>Свитшот Sweet Shot</h3>
+                            <h4>$129</h4>
+
+                        </div>
+
+
+                    </div>
+
+                    <button class="new__button">Открыть магазин</button>
+
+                </div>
+        </section>
+        <section class="settings">
+            <div class="container">
+                <div class="settings__main">
+                    <h2>Что для нас важно</h2>
+                    <div class="settings__box">
+                        <div class="settings__card">
+                            <img src="/images/Frame 1.png" alt="">
+                            <h3>Качество</h3>
+                            <p>Наши профессионалы работают на <br>лучшем оборудовании для пошива <br>одежды
+                                беспрецедентного <br>качества</p>
+                        </div>
+                        <div class="settings__card">
+                            <img src="/images/Frame 2.png" alt="">
+                            <h3>Скорость</h3>
+                            <p>Благодаря отлаженной системе в <br>Womazing мы можем отшивать до <br>20-ти единиц
+                                продукции в наших<br> собственных цехах</p>
+                        </div>
+                        <div class="settings__card">
+                            <img src="/images/Frame 3.png" alt="">
+                            <h3>Ответственность</h3>
+                            <p>Мы заботимся о людях и планете. <br>Безотходное производство и <br>комфортные условия
+                                труда - все <br>это Womazing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="comand">
+
+            <div class="container">
+                <div class="comand__box">
+                    <div class="comand__left">
+                        
+                        <img class="gerl" src="/images/adam-winger-fI-TKWjKYls-unsplash 1.png" alt="">
+                        
+                    </div>
+                    <div class="comand__right">
+                        <h4>Для каждой</h4>
+                        <P>Каждая девушка уникальна. <br> Однако, мы схожи в <br>миллионе мелочей. <br><br>
+                        Womazing ищет эти мелочи и <br> создает прекрасные вещи, <br> которые выгодно
+                            <br>подчеркивают достоинства<br>
+                            каждой девушки.
+                        </p>
+                        <span>Подробнее о бренде</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__top">
+                <img src="/images/Лого.png" alt="">
+                <ul>
+                    <li>Главная</li>
+                    <li>Магазин</li>
+                    <li>О бренде</li>
+                    <li>Контакты</li>
+                </ul>
+                <div class="footer__email">
+                    <p>+7 (495) 823-54-12</p>
+                    <p>hello@womazing.com</p>
+                </div>
+
+
+
+            </div>
+            <div class="footer__bottom">
+                <p>© Все права защищены <br>
+                    Политика конфиденциальности <br>
+                    Публичная оферта</p>
+                <ul>
+                    <li>Пальто</li>
+                    <li>Свитшоты</li>
+                    <li>Кардиганы</li>
+                    <li>Толстовки</li>
+                </ul>
+                <div class="footer__icon">
+                    <div class="footer__imgs">
+                        <img src="images/instagram (1) 1.png" alt="">
+                        <img src="/images/facebook.png" alt="">
+                        <img src="/images/twitter (1) 1.png" alt="">
+                    </div>
+                    <img src="/images/visa.png" alt="">
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 51px;
+}
+
+.header__text ul {
+    display: flex;
+    column-gap: 45px;
+}
+
+.header__text {
+    display: flex;
+    column-gap: 150px;
+}
+
+.header__nubmer span::before {
+    content: '';
+    background: url(/images/Заказ\ звонка.png)center/cover no-repeat;
+    display: block;
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    right: 545px;
+}
+
+.header__nubmer span::after {
+    content: '';
+    background: url(/images/Vector\ \(1\).png)center/cover no-repeat;
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 350px;
+    top: 52px;
+}
+
+.brend__box p::after {
+    content: 'О бренде';
+    color: grey;
+}
+
+
+.brend__box {
+    margin-top: 190px;
+}
+
+.brend__box h2 {
+    font-weight: 400;
+    font-size: 55px;
+    padding-bottom: 26px;
+
+}
+
+.text__top {
+margin: 130px 0 130px 0;
+   
+}
+
+.text_both {
+    display: flex;
+}
+
+.text__top,
+.text__bottom {
+  display: flex;
+}
+.text__center {
+    padding: 46px 0 20px;
+}
+
+.text__top img {
+    width: 442px;
+    height: 547px;
+}
+
+.text__bottom img {
+    width: 442px;
+    height: 547px;
+}
+.text__top__text{
+    margin:113px 0 113px 94px ;
+
+}
+.text__bottom__text{
+    margin:77px 123px 77px 0 ;
+}
+.text__center_two{
+    padding: 46px 0 20px-;
+}
+.button { 
+    background: #6E9C9F;
+    width: 260px;
+    height: 68px;  
+    border: none;
+    margin-top: 130px;
+   margin-left:50% ;
+   transform: translate(-50%);
+   margin-bottom: 130px;
+  }
+  footer {
+    background: #f1eadc;
+    padding: 101px 0 101px;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 39px;
+}
+
+.footer__top ul {
+    display: flex;
+    column-gap: 54px;
+}
+
+.footer__email {
+    text-align: end;
+}
+.footer__email p{
+    margin-right:-40px;
+}
+
+.footer__bottom ul {
+    display: flex;
+    flex-direction: column;
+    column-gap: 45px;
+}
+
+.footer__top ul li:nth-child(1) {
+    color: rgb(96, 139, 125);
+}
+
+.footer__top img {
+    width: 135px;
+    height: 25px;
+    margin-left: -30px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__imgs {
+    margin-bottom: 30px;
+    column-gap: 12px;
+    display: flex;
+}

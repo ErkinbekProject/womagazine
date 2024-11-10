@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+    
+    .header__text ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .header__text li {
+        margin: 10px 0;
+    }
+
+    .new__season__left, .new__season__right {
+        text-align: center;
+    }
+
+    .new__card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .settings__box {
+        flex-direction: column;
+    }
+
+    .settings__card {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .footer__top ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .footer__top li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        padding: 10px 0;
+    }
+
+    .header__text img {
+        max-width: 80%;
+    }
+
+    .new__season__left h1 {
+        font-size: 1.5em;
+    }
+
+    .new__season__left p {
+        font-size: 0.9em;
+    }
+
+    .new__card h3 {
+        font-size: 1.2em;
+    }
+
+    .new__card h4 {
+        font-size: 1em;
+    }
+
+    .comand__right h4 {
+        font-size: 1.2em;
+    }
+
+    .footer__bottom p {
+        font-size: 0.8em;
+    }
+}
