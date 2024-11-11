@@ -23,7 +23,14 @@ header {
     display: flex;
     column-gap: 150px;
 }
+.header__text ul li:nth-child(3) {
+    color: rgb(99, 133, 122);
 
+}
+.header__text ul li:hover{
+    color: rgb(95, 160, 104);
+    box-shadow: black;
+}
 .header__nubmer span::before {
     content: '';
     background: url(/images/Заказ\ звонка.png)center/cover no-repeat;
@@ -157,4 +164,8 @@ margin: 130px 0 130px 0;
     margin-bottom: 30px;
     column-gap: 12px;
     display: flex;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
